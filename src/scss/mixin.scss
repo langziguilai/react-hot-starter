@@ -1,0 +1,10 @@
+@mixin margin-padding-border($margin-horizontal:0,$margin-vertical:0,$padding-horizontal:0,$padding-vertical:0,$border-width:0){
+	margin:$margin-vertical $margin-horizontal;
+	padding:$padding-vertical $padding-horizontal;
+	border-width:$border-width;
+}
+@mixin position-top-left($top:0,$left:0){
+    position:relative;
+    top:$top;
+    left:$left;
+}
